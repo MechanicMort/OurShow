@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9486ff65e04e4f4f88d27f33c3a1add, type: 3}
+  m_Name: Word_4
+  m_EditorClassIdentifier: 
+  EnglishWord: Win
+  NativeWord: Gagner
+  EnglishWordAudio: {fileID: 8300000, guid: ecf50ea3d676a419288fa6433e3f77fd, type: 3}
+  NativeWordAudio: {fileID: 8300000, guid: a39568b28daa74fe5942acf6cdc48e2e, type: 3}
