@@ -43,11 +43,11 @@ public class MenuController : MonoBehaviour
     {
         string[] t_sceneName = SceneManager.GetActiveScene().name.Split("_");
         int t_nextLevel = int.Parse(t_sceneName[1]) + 1;
-        SceneManager.LoadScene(t_sceneName[0] + "_" + t_nextLevel);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
     }
 }
